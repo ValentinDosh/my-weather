@@ -1,0 +1,49 @@
+.temp{
+	font-size: 6rem;
+	display: block;
+	text-align: center;
+}
+
+.city{
+	font-size: 4rem;
+}
+
+.containerCity{
+	display: flex;
+	align-items: center;
+	justify-content : center;
+}
+
+.containerDate{
+	display: flex;
+	flex-direction: column;
+	justify-content : center;
+	align-items: flex-end;
+}
+
+.header-container{
+	background: lightblue;
+	border-radius: 20px;
+	webkit-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
+}
+
+.clock{
+	font-size: 2rem;
+}
+
+@media screen and (max-width: 992px) {
+	.city{
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	.containerDate{
+		flex-direction: row;
+		align-items: center;
+		justify-content : center;
+	}
+}

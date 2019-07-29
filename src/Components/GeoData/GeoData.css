@@ -1,18 +1,17 @@
-.geodata-container{
-	background: lightblue;
-	min-height: 350px;
-	margin-top: 50px;
-	border-radius: 20px;
-	webkit-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
-	font-size: 2rem;
+.geodata-container {
+  background: lightblue;
+  min-height: 350px;
+  margin-top: 50px;
+  border-radius: 20px;
+  -moz-box-shadow: 10px 10px 17px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 17px 0px rgba(0, 0, 0, 0.75);
+  font-size: 2rem;
 }
 
-ul{
-	margin-left: 15px;
+ul {
+  margin-left: 15px;
 }
 
-li:first-child::first-letter{
-	text-transform: capitalize;
+li:first-child::first-letter {
+  text-transform: capitalize;
 }
